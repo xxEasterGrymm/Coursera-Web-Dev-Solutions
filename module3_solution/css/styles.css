@@ -1,13 +1,12 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #e6f9ff; /*maroon*/
+  color: #ffffff;
   font-family: 'Oxygen', sans-serif;
 }
 
 h1 { 
 	font-family: 'Lora', sans-serif;
-	color:#ffffff;
+	color:black;
 	font-size: 1.5em;
 	font-weight: bold;
 	margin-top: 0;
@@ -17,8 +16,6 @@ h1 {
 
 h2 { 
 	font-family: 'Lora', sans-serif;
-	color:#006080;
-	/*font-size: 1.8em;*/
 	font-weight: bold;
 	margin-top: 20px;
 	line-height: .75;
@@ -26,33 +23,31 @@ h2 {
 
 h3 { 
 	font-family: 'Lora', sans-serif;
-	/*font-size: 1.3em;*/
 	font-weight: bold;
 }
 
-
-
 /** ============= HEADER ===================== **/
 #header-nav {
-	background-color: #cc6600;  
+	background-color: lightgray;  
 }
 
 /*Menu items*/
 #nav-list {
   margin-top: 10px;
-  background-color: #804000; 
+  background-color: lightgray; 
 }
 #nav-list a { /*dropdown menu colors*/
-  color: #ffffff;
-  background: #992600;
+  color: black;
+  background: #ffffff;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #661a00;
+  background: black;
+  color: #ffffff;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #661a00;
+  border: 1px solid black;
 }
 
 /** ============= Main content ===================== **/
@@ -68,17 +63,13 @@ h3 {
 
 div.sectiontxt{
 	margin: 10px;
-	background: #006080;
-	color: #e6f9ff;
+	background: lightgray;
+	color: black;
 	padding: 15px;
 }
 
-.sectiontxt a {
-	color: #ffcc00;
-}
-
 .sectiontxt a:hover {
-	color: #ff9900;
+	color: blue;
 }
 
 /** #################################################################### **/
