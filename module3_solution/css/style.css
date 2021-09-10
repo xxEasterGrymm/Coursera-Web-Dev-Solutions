@@ -30,12 +30,10 @@ body {
       font-weight: bold;
   }
   
-  
-  
   /** ============= HEADER ===================== **/
-  #header-nav {
-      background-color: #cc6600;  
-  }
+#header-nav {
+    background-color: #cc6600;  
+}
   
   /*Menu items*/
   #nav-list {
